@@ -11,5 +11,8 @@ project(msvc_charptr_test)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_custom_target(full)
+
 add_executable(msvc_charptr_test main.cpp)
+add_dependencies(full msvc_charptr_test)
 
