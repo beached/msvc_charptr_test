@@ -1,6 +1,6 @@
 # msvc_charptr_test
 
-Issue can be reproduced by 
+Issue in MSVC can be reproduced by 
 
 ```
 git clone https://github.com/beached/msvc_charptr_test.git
